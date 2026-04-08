@@ -1,12 +1,12 @@
 # GingerAI Assist | Domain-Specific AI Assistant Platform
 
-An intelligent AI assistant platform specialised for legal, medical, and business domains. Combines the power of OpenAI API with Retrieval-Augmented Generation (RAG) to provide domain-specific answers based on uploaded documents.
+An intelligent AI assistant platform specialized for legal, medical, and business domains. Combines the power of OpenAI API with Retrieval-Augmented Generation (RAG) to provide domain-specific answers based on uploaded documents.
 
 ## 🎯 Key Features
 
 ✅ **Chat Interface** - Clean, modern ChatGPT-like UI
-✅ **File Upload** - Upload PDFs, documents for the knowledge base
-✅ **Domain Modes** - Switch between Legal, Medical, and Business modes
+✅ **File Upload** - Upload PDFs, documents for knowledge base
+✅ **Domain Modes** - Switch between Legal, Medical, Business modes
 ✅ **RAG System** - AI answers based on your documents + GPT intelligence
 ✅ **Chat History** - Save and access conversation history
 ✅ **Authentication** - Secure login/signup
@@ -163,7 +163,7 @@ Visit `http://localhost:5173` in your browser.
 
 ### Documents
 - `POST /api/documents/upload` - Upload PDF document
-- `GET /api/documents` - Get the user's documents
+- `GET /api/documents` - Get user's documents
 - `DELETE /api/documents/:id` - Delete document
 
 ## 📖 Usage Examples
@@ -173,12 +173,12 @@ Upload contract templates, case laws → Ask "What are the liability clauses?"
 Get answers based on your documents + GPT intelligence
 
 ### 2. Medical Mode
-Upload medical guidelines, FAQs → Ask "What are the symptoms of condition X?"
+Upload medical guidelines, FAQs → Ask "What are symptoms of condition X?"
 Get domain-specific medical responses
 
 ### 3. Business Mode
 Upload company policies, procedures → Ask "What's the leave policy?"
-Get instant answers from the company's knowledge base
+Get instant answers from company knowledge base
 
 ## ⚠️ Important Legal & Compliance
 
@@ -247,10 +247,10 @@ Contributions welcome! Feel free to fork and submit PRs.
 
 ## 📧 Contact
 
-For questions or collaboration: [info@gingerlink.in]
+For questions or collaboration: [your email]
 
 ---
 
 **"Building domain-specific AI for the real world."**
 
-Made with ❤️ for the Ginger Link Technologies brand
+Made with ❤️ for the Ginger Technologies brand
